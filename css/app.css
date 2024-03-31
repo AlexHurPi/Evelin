@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Sansita-Black;
+    src: url(../fuentes/Sansita-Black.ttf);    
+    
+}
+@font-face {    
+    font-family: Sansita-BoldItalic;
+    src: url(../fuentes/Sansita-BoldItalic.ttf);
+}
+@media screen and (max-width:480px) {
+    .cuadricula{
+        column-count: 2;
+        padding: 2vw;
+    }
+}
+
+.titulo h1{
+    font-family: Sansita-Black;
+    color: deeppink;
+}
+.titulo p{
+    font-family: Sansita-BoldItalic;
+    color: deeppink;
+}
+.cuadricula{
+    column-count: 3;
+    padding: 2vw;
+}
