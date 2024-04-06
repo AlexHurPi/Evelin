@@ -1,10 +1,10 @@
 @font-face {
     font-family: Sansita-Black;
-    src: url(../fuentes/Sansita-Black.ttf);    
+    src: url(./Sansita-Black.ttf);    
 }
 @font-face {    
     font-family: Sansita-BoldItalic;
-    src: url(../fuentes/Sansita-BoldItalic.ttf);
+    src: url(./Sansita-BoldItalic.ttf);
 }
  body{
     
