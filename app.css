@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Sansita-Black;
+    src: url(../fuentes/Sansita-Black.ttf);    
+}
+@font-face {    
+    font-family: Sansita-BoldItalic;
+    src: url(../fuentes/Sansita-BoldItalic.ttf);
+}
+ body{
+    
+      background-color: whitesmoke
+ }
+ h5{
+font-family: Sansita-BoldItalic;
+ }
+ .contTitulo{
+    border-radius: 1vw;
+    margin: 1vw 1vw 0 1vw;
+ }
+.titulo h1{
+    font-family: Sansita-Black;
+    color: deeppink;
+}
+.titulo p{
+    font-family: Sansita-BoldItalic;
+    color: deeppink;
+}
+.presentacion{
+    margin: 10px;
+    background-color: deeppink;
+    padding: 1.5vw;
+    border-radius: 1vw 4vw;
+    box-shadow: 0 0 20px 1vw rgba(0, 0, 0, 0.2);
+}
+.presentacion h5{
+    font-family: Sansita-Black;
+    color: white;
+    margin: 0 1% 0 2%;    
+}
+.presentacion p{
+    font-family: Sansita-BoldItalic;
+    color: white;
+    text-align: justify;
+    margin: 0 1% 0 2%;    
+}
+.presentacion img{
+    border-radius: 50%;
+}
+.cuadricula{
+    display: grid;    
+    grid-template-columns: 32% 32% 32%;  
+    grid-template-rows: 24% 24% 24% 24%;
+    column-gap: 1vw;    
+    padding: 1vw 5vw 0vw 6vw;      
+}
+.contImagen{    
+    width: 100%;
+    height: 100%;
+}
+.imagen{
+    width: 100%;
+    height: 80%;
+}
+.enlace img:hover{    
+    width: 7vw;
+}
+.enlace{
+            
+}
+.enlace img{    
+    width: 6vw;
+    height: auto;
+   
+}
+.enlace a{
+    position: fixed;
+    top: 75vh;
+    right: 0vw;
+}
+ .footer{       
+    text-align: center;
+    background-color: deeppink;
+   padding: 0.5vw 3vw 0.1vw 0;  
+ }
+ .linkFooter{
+    display: inline-block;
+    margin-left: 2vw; 
+    margin-top: 2vw; 
+         
+ }
+ .linkFooter h5{
+    color: white;
+    font-weight: bolder;   
+ }
+ .footer img{    
+    width: 2vw;
+ }
+@media screen and (max-width:480px) {
+    .cuadricula{
+       grid-template-columns: auto;  
+       grid-template-rows: auto;       
+       row-gap: 2vh;        
+    }
+    .imagen{
+        height: 50vh;
+    }
+    
+    .enlace img{
+        width: 20vw;
+        height: auto;
+    }    
+     .footer img{
+        width: 10vw;
+     }   
+     .presentacion{
+        padding: 1.5vw;
+        border-radius: 1vw 10vw;        
+}
+h5{
+    font-size: 1.5rem;
+}
+}
