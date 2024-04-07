@@ -1,0 +1,121 @@
+body{
+    font-family:Sansita-BoldItalic ;
+}
+
+/*-------se hizo para el titulo "menu" en la barra responsiva para equipos moviles---------*/
+.tituloMenu{
+    display: inline-block;     
+    color: white;
+    margin-top: 1vw;
+} 
+/*-------se hizo para el titulo "menu" en la barra responsiva para equipos moviles---------*/
+.off-canvas-wrapper{ /*para separar la barra de la margen superior de las pantallas*/
+    margin-top: 0.5vh;
+}
+.responsive-nav-social-mobile {
+    margin-top: 0.5vh;    
+     background: deeppink;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  
+  /*.responsive-nav-social-mobile .responsive-nav-social-mobile-left {
+    -webkit-flex: 1 0 0;
+        -ms-flex: 1 0 0px;
+            flex: 1 0 0;
+  } se deshabilito para que el titulo y el boton de menu se pasaran a la izquierda*/
+  
+  .responsive-nav-social-mobile .responsive-nav-social-mobile-left li {
+    font-size: 1.5rem;
+  }
+  
+  .responsive-nav-social-mobile .responsive-nav-social-mobile-left li .fa {
+    color: #8a8a8a;
+    margin-right: -0.7rem;
+  }  
+  .responsive-nav-social-mobile .responsive-nav-social-mobile-right .menu-icon {
+    margin: 0vw 5vw 0vw 6vw; 
+  }
+  .responsive-nav-social-mobile .responsive-nav-social-mobile-right .menu ul {
+    display: inline-block;    
+  }
+  .responsive-nav-social-mobile .responsive-nav-social-mobile-right .menu-icon::after {
+    padding-right: 1.5rem;    
+    background: white;
+    box-shadow: 0 7px 0 white, 0 14px 0 white;
+  }  
+  .responsive-nav-social {    
+    padding: 0.5% 0% 0% 25%;/*para centrar verticalmente y horizontalmente la lista del menu*/
+    background-color: deeppink;
+    margin: 0% 0% 0% 1%; /*para que la barra de menu tome margen derecho e izquierdo */
+    border-radius: 3vw; /*para volver ovalada la barra*/
+    height: 5vh;  /*para cambiarle el grosor a la barra*/  
+  }  
+  .responsive-nav-social.is-stuck {
+    width: 100%;
+    box-shadow: 0px 4px 10px -2px rgba(128, 128, 128, 0.68);
+  }  
+  .responsive-nav-social a {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+  }  
+  .responsive-nav-social a:hover {
+    color: purple;
+    transition: color 0.2s ease-in;
+  }
+  
+  @media screen and (max-width:480px) {
+    .responsive-nav-social .menu li a {
+      font-size: 1rem;
+      padding: 1.5rem;
+      color: white;
+    }
+    .responsive-nav-social li {
+      border-bottom: 2px solid white;
+    }
+    .responsive-nav-social li:last-of-type {
+      border: 0;
+    }
+    .responsive-nav-social .responsive-nav-social-left {
+      width: 100%;
+    }
+    .responsive-nav-social .responsive-nav-social-left .menu.vertical a {
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .responsive-nav-social {/*para que el menu desplegable no pierda el fondo en los equipos moviles ni el resto de su apariencia */
+        padding: 0% 0% 0% 0%;/*para que el menu desplegableno pierda su apariencia*/
+        margin: 0% 0% 0% 0%; /*para que el menu desplegableno pierda su apariencia*/
+        border-radius: 0vw; /*para que el menu desplegableno pierda su apariencia*/       
+        height: max-content;/*para que el menu desplegableno pierda su apariencia*/
+    
+    }
+     
+  }  
+  .responsive-nav-social .responsive-nav-social-right a {
+    padding-right: 0.1rem;
+  }
+  
+  .responsive-nav-social i.fa {
+    font-size: 1.3rem;
+    color: #8a8a8a;
+  }
+  
+  .responsive-nav-social i.fa:hover {
+    color: #4ec6cd;
+    transition: color 0.2s ease-in;
+  }
+  
+  .sticky-container {   
+    margin-top: 0.5vh;    
+    width: 99%;
+  }
+  
+  

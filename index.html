@@ -5,34 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="./foundation.css">
-    <link rel="stylesheet" href="./app.css">   
-   
+    <link rel="stylesheet" href="./app.css"> 
+    <link rel="stylesheet" href="./estilosNavBar.css">  
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">-->
   </head>
-  <body>
-    <br>
-    <nav class="hover-underline-menu" data-menu-underline-from-center>
-      <ul class="menu align-center">
-        <li><a href="#">Mary Kay at play</a></li>
-        <li><a href="#">Maquillaje</a></li>
-        <li><a href="#">Cuidado de la piel</a></li>
-        <li><a href="#">Regalables</a></li>
-        <li><a href="#">Fragancias</a></li>
-      </ul>
-    </nav>
-    <br>
+  <body>     
+
       <div class="off-canvas-wrapper">     
         <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
          
           <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
             <div class="row column presentacion">
-              <br>
+              
               <img class="thumbnail" src="./imagenes/Evelyn.png">
               <h5>Evelyn Gutierrez Erazo</h5>
               <p>Soy consultora y asesora del cuidado de la piel de productos Mary Kay desde el año 2020, asesoro en productos para el cuidado de la cara y mucho mas.</p>
-            </div>
+              <div class="iconosPresentacion">
+                <a href="https://www.instagram.com/evegutierrez.mk/" target="_blank"><img src="./imagenes/IconoInstagram.png" alt="iconoInstagram"></a>
+                <a  href="https://wa.me/573218015089" target="_blank"><img src="./imagenes/IconoWatsapp.png" alt=""></a>             
+              </div>
+               </div>
           </div>
-  
-          <div class="off-canvas-content" data-off-canvas-content>
+          
+          <div class="off-canvas-content" data-off-canvas-content>            
             <div class="title-bar hide-for-large">
               <div class="title-bar-left">
                 <button class="menu-icon" type="button" data-open="my-info"></button>
@@ -40,13 +35,42 @@
               </div>              
             </div>
             
+<!-----------------------------menu bar-------------------------->
+<div class="responsive-nav-social-mobile" data-responsive-toggle="responsive-nav-social" data-hide-for="medium">
+  <div class="responsive-nav-social-mobile-left">    
+  </div>
+  <div class="responsive-nav-social-mobile-right">    
+    <button class="menu-icon" type="button" data-toggle="responsive-nav-social"></button>
+    <div class="tituloMenu">
+      <h5>Menu</h5>
+     </div>
+  </div>
+</div>
+
+<div data-sticky-container class="data-sticky-container">  
+  <div class="responsive-nav-social" id="responsive-nav-social" data-sticky data-options="marginTop:0;">    
+    <div class="row align-justify align-middle" id="responsive-menu">     
+      <div class="responsive-nav-social-left">       
+        <ul class="menu vertical medium-horizontal">
+          <li><a href="#">Mary Kay at play</a></li>
+          <li><a href="#">Maquillaje</a></li>
+          <li><a href="#">Cuidado de la piel</a></li>
+          <li><a href="#">Regalables</a></li>
+          <li><a href="#">Fragancias</a></li>          
+        </ul>
+      </div>      
+    </div>
+  </div>
+</div>
+<!------------------------------------menu bar-------------------------->
+
             <div class="callout primary contTitulo">
               <div class="row column titulo">
                 <h1>Productos Mary Kay at play</h1>
                 <p class="lead">Sombras, rubores, delineadores y mucho mas!</p>
               </div>
             </div>
-            <div class="cuadricula">
+            <div class="cuadricula">              
               <div class="column contImagen">
                 <img class="thumbnail imagen" src="./imagenes/sombras.png">
                 <h5>Duos sombras Mary Kay at play.</h5>
@@ -108,10 +132,9 @@
             
             <div class="footer"> 
               <ul >
-                <li class="linkFooter"><h5>¡Siguenos!</h5></li>
-                <li class="linkFooter"><a href="https://www.instagram.com/evegutierrez.mk/" target="_blank" >
-                    <img src="./imagenes/IconoInstagram.png" alt="icono instagram">
-                  </a></li>                                    
+                 <li class="linkFooter"><a href="https://www.instagram.com/evegutierrez.mk/" target="_blank">
+                  <img src="./imagenes/IconoInstagram.png" alt="icono instagram"
+                  ><h5>¡Siguenos!</h5></a></li>                                    
               </ul>                        
             </div>      
 
