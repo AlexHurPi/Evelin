@@ -58,17 +58,17 @@ font-family: Sansita-BoldItalic;
 .cuadricula{
     display: grid;    
     grid-template-columns: 32% 32% 32%;  
-    grid-template-rows: 24% 24% 24% 24%;
+    grid-template-rows: 60vh 60vh 60vh 60vh;
     column-gap: 1vw;    
     padding: 1vw 5vw 0vw 6vw;      
 }
 .contImagen{    
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 .imagen{
-    width: 100%;
-    height: 80%;
+    width: 30em;
+    height: 30em;
 }
 .enlace img:hover{    
    transform: scale(1.2);/*para que el boton de watsapp se agrande en su mismo eje*/
