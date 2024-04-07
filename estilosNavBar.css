@@ -1,6 +1,10 @@
 body h5{
-    font-family:Sansita-BoldItalic ;
+    font-family:Sansita-Regular;
     font-size:1em ;
+}
+body h4{
+  font-family:Sansita-Black;
+  font-size:1.5em ;
 }
 
 /*-------se hizo para el titulo "menu" en la barra responsiva para equipos moviles---------*/
