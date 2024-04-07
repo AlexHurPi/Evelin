@@ -55,7 +55,7 @@ body h4{
     box-shadow: 0 7px 0 white, 0 14px 0 white;
   }  
   .responsive-nav-social {    
-    padding: 0.5% 0% 0% 25%;/*para centrar verticalmente y horizontalmente la lista del menu*/
+    padding: 0.5% 0% 0.5% 25%;/*para centrar verticalmente y horizontalmente la lista del menu*/
     background-color: deeppink;
     margin: 0% 0% 0% 1%; /*para que la barra de menu tome margen derecho e izquierdo */
     border-radius: 3vw; /*para volver ovalada la barra*/
