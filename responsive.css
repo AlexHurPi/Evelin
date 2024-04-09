@@ -9,15 +9,43 @@
         width: 100%;
         height: 70%;
     }
-    .responsive-nav-social {    
-        padding: 0.5% 0% 0% 0.5%;/*para centrar verticalmente y horizontalmente la lista del menu*/
-        background-color: deeppink;
-        margin: 0% 0% 0% 5%; /*para que la barra de menu tome margen derecho e izquierdo */
-        border-radius: 3vw; /*para volver ovalada la barra*/
-        height: 8vh;  /*para cambiarle el grosor a la barra*/  
-      }  
+    
+      /*----------------estilos responsive para la barra de navegacion-------------*/
+      .responsive-nav-social {/*para que el menu desplegable no pierda el fondo en los equipos moviles ni el resto de su apariencia */
+        padding: 0% 0% 0% 0%;/*para que el menu desplegableno pierda su apariencia*/
+        margin: 0% 0% 0% 0%; /*para que el menu desplegableno pierda su apariencia*/
+        border-radius: 3vw; /*para que el menu desplegableno pierda su apariencia*/       
+        height: max-content;/*para que el menu desplegableno pierda su apariencia*/    
+    
+    }      
+      .responsive-nav-social .menu li a {
+        font-size: 0.8rem;
+        padding: 1.5rem;
+        color: white;
+       
+      }
+      .responsive-nav-social li {
+        border-bottom: 2px solid white;
+       
+      }
+      .responsive-nav-social li:last-of-type {
+        border: 0;
+      }
+      .responsive-nav-social .responsive-nav-social-left {
+        width: 100%;
+      }
+      .responsive-nav-social .responsive-nav-social-left .menu.vertical a {
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+      }
+     
+       
+    }  
       
-}
+
+
+
 
 @media screen and (max-width:480px) {
     .cuadricula{

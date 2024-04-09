@@ -74,36 +74,7 @@ body h4{
     color: purple;
     transition: color 0.2s ease-in;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .responsive-nav-social .menu li a {
-      font-size: 0.8rem;
-      padding: 1.5rem;
-      color: white;
-    }
-    .responsive-nav-social li {
-      border-bottom: 2px solid white;
-    }
-    .responsive-nav-social li:last-of-type {
-      border: 0;
-    }
-    .responsive-nav-social .responsive-nav-social-left {
-      width: 100%;
-    }
-    .responsive-nav-social .responsive-nav-social-left .menu.vertical a {
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-    }
-    .responsive-nav-social {/*para que el menu desplegable no pierda el fondo en los equipos moviles ni el resto de su apariencia */
-        padding: 0% 0% 0% 0%;/*para que el menu desplegableno pierda su apariencia*/
-        margin: 0% 0% 0% 0%; /*para que el menu desplegableno pierda su apariencia*/
-        border-radius: 0vw; /*para que el menu desplegableno pierda su apariencia*/       
-        height: max-content;/*para que el menu desplegableno pierda su apariencia*/
-    
-    }
-     
-  }  
+
   .responsive-nav-social .responsive-nav-social-right a {
     padding-right: 0.1rem;
   }
