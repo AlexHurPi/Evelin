@@ -59,87 +59,58 @@
 }
 .cuadricula{
     display: grid;    
-    grid-template-columns: 24% 24% 24% 24%;  
-    grid-template-rows:  30% 30% 30%;
-    column-gap: 1vw;    
-    row-gap: 3vw;
-    padding: 1vw 5vw 0vw 6vw;      
+    grid-template-columns: 25% 25% 25% 25%;  
+    grid-template-rows:  33% 33% 33%;
+    column-gap: 1vw;     
+    padding: 1em 5em 1em 5em;      
 }
 .contImagen{    
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 .imagen{
     width: 100%;
-    height: 85%;
+    height: 80%;
+}
+.contTexto h5{
+    max-width: 100%; /* Establece el ancho máximo del contenedor */
+    overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al texto desbordado */
+    white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
+ text-align: center;
 }
 .enlace img:hover{    
    transform: scale(1.2);/*para que el boton de watsapp se agrande en su mismo eje*/
 }
 .enlace img{    
-    width: 6vw;
+    width: 5em;
     height: auto;
-   
-}
-.enlace a{
     position: fixed;
-    top: 75vh;
-    right: 0vw;
+    top: 55vh;
+    right: 1vw;
+    border-radius: 50%;
+    box-shadow:0px 0px 20px 0.5vw rgba(0, 0, 0, 0.3) ;
 }
- .footer{       
+ .footer{   
+    position: absolute; /*esta propiedad se aplica para que el footer se pegue al margen inferior*/
+    bottom: 0em; /*esta propiedad se aplica para que el footer se pegue al margen inferior*/  
+    width: 100%;/*para que el footer se expanda al ancho de la pantalla*/
+    background-color: deeppink; 
     text-align: center;
-    background-color: deeppink;
-   padding: 0.5vw 3vw 0.1vw 0;  
- }
+    padding: 1em 10em 0em 0em;    
+ } 
  .linkFooter{
-    display: inline-block;
-    margin-left: 2vw; 
-    margin-top: 2vw; 
-         
+  list-style-type: none;/*para quitar el punto que aparece a la izquierdsa en cada elemento de una lista*/    
+}
+.linkFooter li{
+    display: inline-block;     
  }
  .linkFooter h5{
     color: white;
-    font-weight: bolder;
-    display: inline-block;   
- }
- .footer img{    
-    width: 2vw;
-    margin-right: 1vw;
+    font-weight: bolder;   
  } 
- 
- /*-------------------estilos de fundation para la barra de navegacion-----------------------------------*/
- 
-
-/*--------------------estilos de fundation para la barra de navegacion-----------------------------------*/  
-
-@media screen and (max-width:480px) {
-    .cuadricula{
-       grid-template-columns: auto;  
-       grid-template-rows: auto;       
-       row-gap: 2vh;        
-    }
-    .imagen{
-        height: 45vh;
-    }
-    
-    .enlace img{
-        width: 20vw;
-        height: auto;
-    }    
-    
-     .footer img{
-        width: 10vw;
-     }   
-     .presentacion{
-        padding: 1.5vw;
-        border-radius: 1vw 10vw;        
-    }
-    h5{
-    font-size: 1.5rem;
-}
-.presentacion a img{
-    width: 10vw;
-    margin: 5vw;
-}
-
-}
+ .footer img{    
+    width: 2em;
+    height: auto;
+   /* margin-left: 10em;*/   
+ } 
