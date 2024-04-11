@@ -34,7 +34,7 @@ body{
     margin-top: 1rem;
     }
     .listNav{
-        display: flex;
+        display: flex;        
         list-style-type: none;
         gap: 2rem;       
     }
@@ -73,15 +73,18 @@ body{
     font-size: 2rem;
 }
 .mainContainer{
-    margin: 1% 20% 1% 20%; 
+    min-height: clac(100vh - 3rem);
+    margin: 1% 20% 3rem 20%;
+    padding-bottom: 3rem; 
+
 }
 .mainContainer ul{      
-    display: grid;    
+    display: grid;        
     grid-template-columns: repeat(3, 1fr );
-    grid-template-rows: repeat(3, 1fr); /* Tres filas */
+    grid-template-rows: repeat(4, 1fr); /* Tres filas */
     list-style-type: none;
     column-gap: 1%;
-    row-gap: 0.5%;   
+    row-gap: 5%;   
 }
 .mainContainer li{   
     width: 100%;
