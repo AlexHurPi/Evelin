@@ -86,22 +86,21 @@ body{
     column-gap: 1%;
     row-gap: 1%;   
 }
-.mainContainer li{   
-    width: 100%;
-    height:100%;    
-}
+/*.mainContainer li{   
+   width: 100%;
+    height: 100%;   
+}*/
 .mainContainer img{
    border-radius: 3vh;
     width: 100%; /* Ocupa todo el ancho de la celda */
-    height: 90%;/* Ocupa el 60% de la altura de la celda */
+    height: 85%;/* Ocupa el 60% de la altura de la celda */
     object-fit: cover; /* Ajusta la imagen para cubrir la celda */
-}
-.contSubtitulos{
-    background-color: burlywood;
 }
 .mainContainer h5{      
    text-align: center; 
-   font-size: 1rem;  
+   font-size: 1.5rem; 
+   color: deeppink; 
+    background-color: blanchedalmond;
 }
 .footer{
     position: absolute;
