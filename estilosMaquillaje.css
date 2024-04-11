@@ -105,6 +105,12 @@ body{
    color: deeppink; 
    background-color: blanchedalmond;
 }
+.enlace{
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    scale: 0.1;
+}
 .footer{   
     background-color: deeppink;
     height: 3rem;
