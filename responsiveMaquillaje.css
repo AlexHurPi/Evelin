@@ -3,10 +3,6 @@
     .abrir-menu{
     display: block;    
 }
-header{
-   
-}
-
 .nav{      
     display: flex;
     position: absolute; 

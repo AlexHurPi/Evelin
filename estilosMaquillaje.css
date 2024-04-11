@@ -31,14 +31,15 @@ body{
     justify-content: center;
     background-color: white;
     padding: 1.5rem;
-    gap: 2rem;           
+    gap: 2rem;   
+          
     }
     header img{           
         width: auto;
         height: 4rem;        
     }
     header h2{               
-        color: deeppink;
+        color: deeppink; 
         font-family: Sansita-Black;
     }   
     .listNav{
@@ -48,19 +49,18 @@ body{
     }
     .listNav a{
         text-decoration: none;
-        color: deeppink;       
+        color: deeppink;    
         font-size: 1.2rem;
     }
-    .listNav a:hover{
-     font-size: 1.2rem;
-     color: blueviolet;     
+    .listNav a:hover{     
+     color: blueviolet; 
+     font-size: 1.4rem;    
     }
 
     .abrir-menu,      
     .cerrar-menu{
         display: none;  
-        border: none;    
-                
+        border: none;                 
     }
     .abrir-menu i{
         background-color:rgba(255, 20, 145, 0.187);
@@ -68,13 +68,14 @@ body{
     } 
     .banner{
         display: flex;
-        justify-content: center; 
-                   
-    }
-    .banner img{
-        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        color: blueviolet; 
+    }    
+    .banner img{        
+        margin: 1rem 0rem 3rem 0rem;
         width: 50vw;
-        height: auto;
+        height: 30vh;
     }
 .mainContainer{   
     margin: 1% 20% 1% 20%;
@@ -95,7 +96,7 @@ body{
 }
 .mainContainer h5{      
    text-align: center; 
-   font-size: 1.5rem; 
+   font-size: 1rem; 
    color: deeppink; 
    background-color: blanchedalmond;
 }
