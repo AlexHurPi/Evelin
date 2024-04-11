@@ -7,17 +7,14 @@
     src: url(./Sansita-BoldItalic.ttf);
 }
 @font-face {    
-    font-family: Sansita-C;
+    font-family: Sansita-Regular;
     src: url(./Sansita-Regular.ttf);
 }
 body{
-    font-family: Sansita-V;     
+    font-family: Sansita-Regular;     
     background-color: azure;  
     display: flex; 
-    position: relative;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    position: relative;    
 }
 *{
     margin: 0;
@@ -32,6 +29,7 @@ body{
     padding: 2rem;
     gap: 2rem;
     margin-top: 1rem;
+    
     }
     .listNav{
         display: flex;        
@@ -40,7 +38,8 @@ body{
     }
     .listNav a{
         text-decoration: none;
-        color: white;
+        color: deeppink;
+        font-family: Sansita-Black;
     }
     .listNav a:hover{
      font-size: 2rem;
@@ -93,14 +92,14 @@ body{
 .mainContainer img{
    border-radius: 3vh;
     width: 100%; /* Ocupa todo el ancho de la celda */
-    height: 85%;/* Ocupa el 60% de la altura de la celda */
+    height: 90%;/* Ocupa el 60% de la altura de la celda */
     object-fit: cover; /* Ajusta la imagen para cubrir la celda */
 }
 .mainContainer h5{      
    text-align: center; 
    font-size: 1.5rem; 
    color: deeppink; 
-    background-color: blanchedalmond;
+   background-color: blanchedalmond;
 }
 .footer{
     position: absolute;
