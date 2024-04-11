@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Sansita-Black;
+    src: url(./Sansita-Black.ttf);    
+}
+@font-face {    
+    font-family: Sansita-BoldItalic;
+    src: url(./Sansita-BoldItalic.ttf);
+}
+@font-face {    
+    font-family: Sansita-C;
+    src: url(./Sansita-Regular.ttf);
+}
+body{
+    font-family: Sansita-V;     
+    background-color: azure;  
+    display: flex; 
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    header{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 20, 145, 0.187);
+    padding: 2rem;
+    gap: 2rem;
+    margin-top: 1rem;
+    }
+    .listNav{
+        display: flex;
+        list-style-type: none;
+        gap: 2rem;       
+    }
+    .listNav a{
+        text-decoration: none;
+        color: white;
+    }
+    .listNav a:hover{
+     font-size: 2rem;
+    }
+    .abrir-menu,      
+    .cerrar-menu{
+        display: none;  
+        border: none;    
+                
+    }
+    .abrir-menu i{
+        background-color:rgba(255, 20, 145, 0.187);
+     font-size: 2rem;
+    }
+   
+.contTotal{
+     
+}
+.contTituloPrincipal {    
+    display: flex; /*para poder centrar verticalmente y horizontalmente el titulo*/
+    height: 5vh;
+    background-color: deeppink;         
+    border-radius: 2vw;   
+   justify-content: center;
+   align-items: center;
+   margin: 0.5% 1% 0% 1%;
+}
+.contTituloPrincipal h1{
+    color: white;  
+    font-size: 2rem;
+}
+.mainContainer{
+    margin: 1% 20% 1% 20%; 
+}
+.mainContainer ul{      
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr );
+    grid-template-rows: repeat(3, 1fr); /* Tres filas */
+    list-style-type: none;
+    column-gap: 1%;
+    row-gap: 0.5%;   
+}
+.mainContainer li{   
+    width: 100%;
+    height: 90%;    
+}
+.mainContainer img{
+   border-radius: 3vh;
+    width: 100%; /* Ocupa todo el ancho de la celda */
+    height: 90%;/* Ocupa el 60% de la altura de la celda */
+    object-fit: cover; /* Ajusta la imagen para cubrir la celda */
+}
+.contSubtitulos{
+    background-color: burlywood;
+}
+.mainContainer h5{    
+   margin: 1% 0% 1% 0%;  
+   text-align: center; 
+   font-size: 1rem;
+  
+}
+.footer{
+    position: absolute;
+    bottom: 0%;
+    background-color: deeppink;
+    height: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;         
+    }
+   
