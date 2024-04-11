@@ -35,10 +35,13 @@ header img{
     width: auto;
     height: 2rem;        
 }
+.banner{
+    font-size: 1rem;
+}
 .banner img{        
     margin: 1rem 0rem 1rem 0rem;
-    width: 50vw;
-    height: 15vh;
+    width: 70vw;
+   height: auto;
 }
 .mainContainer{
     margin-bottom: 1%;
