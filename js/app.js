@@ -17,12 +17,10 @@ const quienesSomos =document.querySelector("#quienesSomos");
 quienesSomos.addEventListener("click", ()=>{
     perfilEvelyn.classList.add("mostrarPerfil");
 });
-document.addEventListener('click', function(event){
+document.addEventListener('click', (event)=>{
     if (event.target !== quienesSomos)
         perfilEvelyn.classList.remove("mostrarPerfil");   
 });
-
-
 
 $(document).foundation()
 
