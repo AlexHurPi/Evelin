@@ -2,6 +2,15 @@
     .enlace img{        
         height: 15vh;       
     }   
+    header h2{
+        font-size: 1.2rem;
+        }
+        .listNav a{
+            font-size: 1rem;
+        }
+        .perfilEvelyn{
+          margin-right: 18rem;
+        }
 }
 @media screen and (max-width:780px){
     
@@ -12,8 +21,7 @@
 .nav{      
     display: flex;
     position: absolute; 
-    flex-direction: column;
-          
+    flex-direction: column;          
     top: 0rem;
     right: 0rem;
     bottom: 0rem;
