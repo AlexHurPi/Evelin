@@ -68,6 +68,14 @@ body{
     .perfilEvelyn.mostrarPerfil{
         display: block;
     }
+    .quienesSomos{
+        border: none;
+        background-color: white;
+        text-decoration: underline;
+        color: deeppink;
+        margin-top: 0.2rem;
+
+    }
     header img{           
         width: auto;
         height: 4rem;        
