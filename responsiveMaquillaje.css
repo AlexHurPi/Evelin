@@ -3,9 +3,6 @@
         height: 15vh;       
     }
 }
-
-
-
 @media screen and (max-width:780px){
     
     .abrir-menu{
@@ -81,4 +78,8 @@ header img{
      width: 100%; 
      height: 75%;      
  } 
+ .enlace img{        
+    height: 10vh;       
+}
+}
 }
