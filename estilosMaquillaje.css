@@ -43,9 +43,10 @@ body{
         height: 5rem;
         border-radius: 50%;
     }
-    .perfilEvelyn{
+    .perfilEvelyn{        
         position: fixed;
         display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;        
         top: 10rem; 
@@ -63,6 +64,9 @@ body{
         width: 10em;
         height: auto;
     }    
+    .perfilEvelyn.mostrarPerfil{
+        display: block;
+    }
     header img{           
         width: auto;
         height: 4rem;        
