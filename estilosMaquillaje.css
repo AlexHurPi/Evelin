@@ -34,7 +34,7 @@ body{
     gap: 2rem;            
     }
     .iconoQuienesSomos{
-        display: flex;
+        display: flex;        
         flex-direction: column;
         align-items: center;
     }    
@@ -70,11 +70,12 @@ body{
     }
     .quienesSomos{
         border: none;
-        background-color: white;
-        text-decoration: underline;
-        color: deeppink;
+        background-color: transparent;
+        text-decoration: underline;        
         margin-top: 0.2rem;
-
+        color: deeppink;
+        font-weight: bolder;
+        font-size: 1rem;
     }
     header img{           
         width: auto;
@@ -84,6 +85,7 @@ body{
         color: deeppink; 
         font-family: Sansita-Black;
     }   
+    
     
     .listNav{
         display: flex;           
@@ -157,13 +159,18 @@ body{
     border-radius: 50%;
     box-shadow:  0px 0px 20px 0.5vw rgba(0, 0, 0, 0.2);
 }
-.footer{   
+footer{   
     background-color: deeppink;
-    height: 3rem;
+    height: 5rem;
     color: white;
     display: flex;    
     justify-content: center;
     align-items: center;    
-    width: 100%;         
+    width: 100%;  
+    gap: 0.5rem;       
+    }
+    footer img{
+        width: auto;
+        height: 2rem;
     }
    

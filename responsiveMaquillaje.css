@@ -15,9 +15,8 @@
 @media screen and (max-width:780px){
     
     .abrir-menu{
-    display: block;    
+    display: block;       
 }
-
 .nav{      
     display: flex;
     position: absolute; 
@@ -27,7 +26,7 @@
     bottom: 0rem;
     background-color: deeppink;    
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-    padding: 2rem;   
+    padding: 1rem;   
     display: none;
     border-radius: 1rem;
 }
@@ -53,8 +52,8 @@ align-items: end;
     display: block;
 }
 header {
-    padding: 1rem;
-    gap: 1.5rem;  
+    padding: 0.5rem;
+    gap: 1rem;  
 }
 header h2{
 font-size: 1.5rem;
@@ -62,6 +61,27 @@ font-size: 1.5rem;
 header img{           
     width: auto;
     height: 3rem;        
+}
+.iconoQuienesSomos{
+    display: flex; 
+    position: absolute;       
+    left: 2rem;
+    bottom: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+}    
+.iconoQuienesSomos img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.quienesSomos{
+color: white;
+font-size: 0.7rem;
+}
+.perfilEvelyn{
+    bottom: 8rem;   
+    left: 0rem;
 }
 .banner{
     font-size: 1rem;
@@ -89,5 +109,8 @@ header img{
  } 
  .enlace img{        
     height: 10vh;       
+}
+footer{
+    height: 5rem;
 }
 }
