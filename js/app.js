@@ -13,9 +13,14 @@ cerrarMenu.addEventListener("click", () =>{
 
 const perfilEvelyn =document.querySelector("#perfilEvelyn")
 const quienesSomos =document.querySelector("#quienesSomos");
+const estilo = window.getComputedStyle(perfilEvelyn);
 
 quienesSomos.addEventListener("click", ()=>{
-    perfilEvelyn.classList.add("mostrarPerfil");
+    if(estilo.display == "none" ){
+        perfilEvelyn.classList.add("mostrarPerfil");
+    }else{
+        perfilEvelyn.classList.remove("mostrarPerfil");
+    }    
 });
 document.addEventListener('click', (event)=>{
     if (event.target !== quienesSomos)
