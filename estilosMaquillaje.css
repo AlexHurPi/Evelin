@@ -77,6 +77,10 @@ body{
         font-weight: bolder;
         font-size: 1rem;       
     }
+    .quienesSomos:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+    }
     .quienesSomos img{
         object-fit: cover;
     }
