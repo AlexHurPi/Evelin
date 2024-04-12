@@ -1,3 +1,11 @@
+@media screen and (max-width:1024px){
+    .enlace img{        
+        height: 15vh;       
+    }
+}
+
+
+
 @media screen and (max-width:780px){
     
     .abrir-menu{
