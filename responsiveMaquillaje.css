@@ -24,11 +24,13 @@
     top: 0rem;
     right: 0rem;
     bottom: 0rem;
+    left: 12rem;
     background-color: deeppink;    
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
     padding: 1rem;   
     display: none;
     border-radius: 1rem;
+    
 }
 .listNav{
 flex-direction: column;
