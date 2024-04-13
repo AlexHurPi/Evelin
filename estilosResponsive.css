@@ -1,19 +1,11 @@
 @media screen and (max-width:1440px){
-    .contBanner{    
-        display: flex;
+    .contBanner{         
          width: 50rem; 
-         height: 25rem;
-         margin: 0 auto;     
-         overflow: hidden;
+         height: 25rem;         
      }
      .listNav{        
         gap: 2rem;           
-    }
-     .listNav a{
-        text-decoration: none;
-        color: deeppink;    
-        font-size: 1rem;
-    }
+    }    
 }
 
 @media screen and (max-width:1024px){
