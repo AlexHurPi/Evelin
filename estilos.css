@@ -31,7 +31,7 @@ body{
     justify-content: center;
     background-color: white;
     padding: 1.5rem;
-    gap: 2rem;            
+    gap: 3rem;            
     }
     .iconoQuienesSomos{
         display: flex;        
@@ -96,7 +96,7 @@ body{
     .listNav{
         display: flex;           
         list-style-type: none;
-        gap: 2rem;   
+        gap: 5rem;           
     }
     .listNav a{
         text-decoration: none;
