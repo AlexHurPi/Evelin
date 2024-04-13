@@ -29,7 +29,19 @@ document.addEventListener('click', (event)=>{
         perfilEvelyn.classList.remove("mostrarPerfil");  
     }         
 });
+//------------------Slider o carrusel de imagenes----------------
+ let banner = document.querySelector(".banner");
+ let images = banner.querySelectorAll("img");
+ let index = 1;
 
+ setInterval(function () {
+    let porcentage = index * -100;
+    banner.style.transform = "translateX("+ porcentage + "%)";
+    index++;
+    if(index > (images.length-1)){
+        index = 0;        
+    }    
+ }, 2000);
 
 
 

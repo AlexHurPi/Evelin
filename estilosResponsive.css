@@ -1,3 +1,21 @@
+@media screen and (max-width:1440px){
+    .contBanner{    
+        display: flex;
+         width: 50rem; 
+         height: 25rem;
+         margin: 0 auto;     
+         overflow: hidden;
+     }
+     .listNav{        
+        gap: 2rem;           
+    }
+     .listNav a{
+        text-decoration: none;
+        color: deeppink;    
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width:1024px){
     .botonWatsapp{        
         height: 14vh;       
@@ -11,6 +29,13 @@
         .perfilEvelyn{
           margin-right: 18rem;
         }
+        .contBanner{    
+            display: flex;
+             width: 40rem; 
+             height: 20rem;
+             margin: 0 auto;     
+             overflow: hidden;
+         }
         
 }
 @media screen and (max-width:780px){
@@ -48,8 +73,7 @@ gap: 4rem;
 .cerrar-menu{       
     display: block;   
     margin-bottom: 1rem; 
-    position: relative;   
-     
+    position: relative;     
 }
 .nav.visible{
     display: block;
