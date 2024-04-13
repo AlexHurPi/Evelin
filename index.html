@@ -3,171 +3,137 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="./foundation.css">
-    <link rel="stylesheet" href="./app.css"> 
-    <link rel="stylesheet" href="./estilosNavBar.css">  
-    <link rel="stylesheet" href="./responsiveIndex.css">
-  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">-->
+    <title>Maquillaje</title>    
+    <link rel="stylesheet" href="estilos.css">  
+    <link rel="stylesheet" href="estilosResponsive.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
-  <body>     
-
-      <div class="off-canvas-wrapper">     
-        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-         
-          <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
-            <div class="row column presentacion">
-              
-              <img class="thumbnail" src="./imagenes/Evelyn.png">
-              <h5>Evelyn Gutierrez Erazo</h5>
-              <p>Soy consultora y asesora del cuidado de la piel de productos Mary Kay desde el año 2020, asesoro en productos para el cuidado de la cara y mucho mas.</p>
-              <div class="iconosPresentacion">
-                <a href="https://www.instagram.com/evegutierrez.mk/" target="_blank"><img src="./imagenes/IconoInstagram.png" alt="iconoInstagram"></a>
-                <a  href="https://wa.me/573173965541" target="_blank"><img src="./imagenes/IconoWatsapp.png" alt=""></a>             
-              </div>
-               </div>
-          </div>
-          
-          <div class="off-canvas-content" data-off-canvas-content>            
-            <div class="title-bar hide-for-large">
-              <div class="title-bar-left">
-                <button class="menu-icon" type="button" data-open="my-info"></button>
-                <span class="title-bar-title">Evelyn Gutierrez Erazo</span>
-              </div>              
-            </div>
-            
-<!-----------------------------menu bar-------------------------->
-<div class="responsive-nav-social-mobile" data-responsive-toggle="responsive-nav-social" data-hide-for="medium">
-  <div class="responsive-nav-social-mobile-left">    
-  </div>
-  <div class="responsive-nav-social-mobile-right">    
-    <button class="menu-icon" type="button" data-toggle="responsive-nav-social"></button>
-    <div class="tituloMenu">
-      <h4>Menu</h4>
-     </div>
-  </div>
-</div>
-
-<div data-sticky-container class="data-sticky-container">  
-  <div class="responsive-nav-social" id="responsive-nav-social" data-sticky data-options="marginTop:0;">    
-    <div class="row align-justify align-middle" id="responsive-menu">     
-      <div class="responsive-nav-social-left">       
-        <ul class="menu vertical medium-horizontal">
-          <li><a href="#">Mary Kay at play</a></li>
-          <li><a href="./maquillaje.html">Maquillaje</a></li>
-          <li><a href="#">Cuidado de la piel</a></li>
-          <li><a href="#">Regalables</a></li>
-          <li><a href="#">Fragancias</a></li>          
+  <body>         
+    <header>              
+      <img src="./imagenes/iconoMaryKay3.png" alt="">    
+      <div>
+        <h2>Consultora</h2>
+        <h2>Mary Kay</h2>
+      </div>    
+      <button class="abrir-menu" id="abrirMenu"><i class="bi bi-list"></i></button>
+      <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrarMenu"><i class="bi bi-x-lg"></i></button>
+        <ul class="listNav">
+          <li><a href="">MaryKay at play</a></li>
+          <li><a href="">Maquillaje</a></li>
+          <li><a href="">Cuidado de la piel</a></li>
+          <li><a href="">Regalables</a></li>
+          <li><a href="">Fragancias</a></li>
+          <li></li>
         </ul>
-      </div>      
-    </div>
-  </div>
-</div>
-<!------------------------------------menu bar-------------------------->
-
-            <div class="callout primary contTitulo">
-              <div class="row column titulo">
-                <h1>Productos Mary Kay at play</h1>
-                <p class="lead">Sombras, rubores, delineadores y mucho mas!</p>
-              </div>
-            </div>
-            <div class="cuadricula">              
-              <div class="column contImagen">
-                <img class="thumbnail imagen" src="./imagenes/sombras.png">
-                <div class="contTexto">
-                  <h5>Duos sombras Mary Kay at play.</h5>
-                  <h5>$ 32.900</h5>
-                </div>
-                
-              </div>
-              <div class="column contImagen">
-                <img class="thumbnail imagen" src="./imagenes/rubor.jpg">
-                <div class="contTexto">
-                <h5>Duos rubor en polvo mary Kay at play.</h5>
-                <h5>$ 38.900</h5>
-              </div>
-            </div>
-              <div class="column contImagen ">
-                <img class="thumbnail imagen" src="./imagenes/bronceador.jpg">
-                <div class="contTexto">
-                <h5>Duos bronceador en polvo Mary Kay at play.</h5>
-                <h5>$ 37.500</h5>
-              </div>
-            </div>
-              <div class="column contImagen">
-                <img class="thumbnail imagen" src="./imagenes/delineadorLiquido.jpg">
-                <div class="contTexto">
-                <h5>Delineador liquido para ojos Tono negro.</h5>
-                <h5>$ 31.900</h5>
-              </div>
-            </div>
-              <div class="column contImagen">
-                <img class="thumbnail imagen" src="./imagenes/delineadorLiquido.jpg">
-                <div class="contTexto">
-                <h5>Delineador liquido para ojos Tono emerald y sappire.</h5>
-                <h5>$ 32.900</h5>
-              </div>
-            </div>
-              <div class="column contImagen">
-                <img class="thumbnail imagen" src="./imagenes/LapizDelineador.jpg">
-                <div class="contTexto">
-                <h5>Lapiz delineador para ojos</h5>
-                <h5>$ 20.900 c/u &nbsp; &nbsp;1.2g  </h5>
-              </div>
-            </div>
-              <div class="column contImagen">
-                <img class="thumbnail imagen" src="./imagenes/fragancia.jpg">
-                <div class="contTexto">
-                <h5>Pink Eau de Toilette</h5>
-                <h5>$ 75.900 &nbsp; 50 ml  </h5>
-              </div>
-            </div>
-              <div class="column contImagen">
-                <img class="thumbnail imagen" src="./imagenes/maquillajeLiquido.jpg">
-                <div class="contTexto">
-                <h5>Maquillaje liquido mate</h5>
-                <h5>$ 45.900 c/u &nbsp; 29 ml  </h5>
-              </div>
-            </div>
-              <div class="column contImagen">
-                <img class="thumbnail imagen" src="./imagenes/iluminadorLiquido.jpg">
-                <div class="contTexto">
-                <h5>Iluminador liquido</h5>
-                <h5>$ 35.900 12g</h5>
-                </div>
-              </div>
-              <div class="column contImagen">
-                <img class="thumbnail imagen" src="./imagenes/polvoAcabadoMate.jpg">
-                <div class="contTexto">
-                <h5>Polvo de acabado mate</h5>
-                <h5>$ 38.500 &nbsp; 8.5g</h5>
-              </div>
-              </div>           
-            </div>            
-            <br>
-           
-              <div class="enlace">              
-                <a  href="https://wa.me/573173965541?text=hola%20estoy%20interesad@%20en%20un%20producto" target="_blank"><img src="./imagenes/IconoWatsapp3.png" alt=""></a>              
-            </div>           
-            
-            <footer class="footer">
-              <ul class="linkFooter">
-                <li ><a href="https://www.instagram.com/evegutierrez.mk/" target="_blank">
-                 <img src="./imagenes/IconoInstagram.png" alt="icono instagram"
-                 ></a></li>  
-                 <li><h5>¡Siguenos!</h5></li>                                  
-             </ul>         
-            </footer>         
-            </div>                  
-            </div>
-            
-                      
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>    
+       </nav>
+       <div class="iconoQuienesSomos" id="iconoQuienesSomos" >        
+        <button class="quienesSomos" id="quienesSomos">
+          <img src="./imagenes/Evelyn.png" alt="imagen-evelyn"><h5>Quienes somos</h5>          
+        </button>
+        <div class="perfilEvelyn" id="perfilEvelyn">
+          <div class="imagenEvelyn">
+            <img src="./imagenes/Evelyn.png" alt="imagen-evelyn">
+          </div>  
+          <br>       
+        <h1>Evelyn Gutierrez Erazo</h1>
+        <br>
+        <p>Soy consultora y asesora del cuidado de la piel de productos Mary Kay desde el año 2020, asesoro en productos para el cuidado de la cara y mucho mas.</p>
+        </div>    
+       </div>       
+     </header>
+     <div class="banner">
+      
+        <h3>Asesoramos en el cuidado de la piel</h3>
+      <H5>¡Porque una mujer puede!</H5>
      
+        <img src="./imagenes/banner3.png" alt="imagen banner">
+     </div>
+
+     <div class="contTotal">   
+     <div class="mainContainer">
+      <div class="grid">
+        <ul>
+          <li>            
+              <a href=""><img src="./imagenes/bronceador.jpg" alt=""></a>            
+              <div class="contSubtitulos">
+                <h5>bronceador</h5>
+                <h5>$ 5.000</h5> 
+              </div>                                 
+          </li>
+          <li>           
+              <a href=""><img src="./imagenes/delineadorLiquido.jpg" alt=""></a>          
+              <div class="contSubtitulos">
+                <h5>bronceador</h5>
+                <h5>$ 5.000</h5> 
+              </div>                       
+          </li>
+          <li>           
+              <a href=""><img src="./imagenes/fragancia.jpg" alt=""></a>          
+              <div class="contSubtitulos">
+                <h5>bronceador</h5>
+                <h5>$ 5.000</h5> 
+              </div>                  
+          </li>
+          <li>           
+              <a href=""><img src="./imagenes/iluminadorLiquido.jpg" alt=""></a>         
+              <div class="contSubtitulos">
+                <h5>bronceador</h5>
+                <h5>$ 5.000</h5> 
+              </div>                      
+          </li>
+          <li>          
+              <a href=""><img src="./imagenes/LapizDelineador.jpg" alt=""></a>           
+              <div class="contSubtitulos">
+                <h5>bronceador</h5>
+                <h5>$ 5.000</h5> 
+              </div>                    
+          </li>
+          <li>           
+              <a href=""><img src="./imagenes/maquillajeLiquido.jpg" alt=""></a>           
+              <div class="contSubtitulos">
+                <h5>bronceador</h5>
+                <h5>$ 5.000</h5> 
+              </div>                
+          </li>
+          <li>           
+              <a href=""><img src="./imagenes/polvoAcabadoMate.jpg" alt=""></a>          
+              <div class="contSubtitulos">
+                <h5>bronceador</h5>
+                <h5>$ 5.000</h5> 
+              </div>                
+          </li>
+          <li>           
+              <a href=""><img src="./imagenes/rubor.jpg" alt=""></a>           
+              <div class="contSubtitulos">
+                <h5>bronceador</h5>
+                <h5>$ 5.000</h5> 
+              </div>                    
+          </li>
+          <li>          
+              <a href=""><img src="./imagenes/sombras.png" alt=""></a>          
+              <div class="contSubtitulos">
+                <h5>bronceador</h5>
+                <h5>$ 5.000</h5> 
+              </div>                 
+          </li>    
+                
+        </ul>        
+      </div>     
+     </div>    
+    </div>  
+    
+    <div class="enlace" id="enlace">              
+      <a  href="https://wa.me/573173965541?text=hola%20estoy%20interesad@%20en%20un%20producto" target="_blank">
+        <img class="botonWatsapp" id="botonWatsapp" src="./imagenes/IconoWatsapp3.png" alt=""></a>              
+    </div>
+    <footer>
+      <h5>¡Siguenos!</h5>
+      <a href="https://www.instagram.com/evegutierrez.mk/" target="_blank"><img  src="./imagenes/IconoInstagram.png" alt="iconoInstagram"></a>
+      <a  href="https://wa.me/573173965541" target="_blank"><img src="./imagenes/IconoWatsapp3.png" alt="enlace-watsapp"></a>             
+    </footer>
+    <script src="./js/app.js">      
+    </script>
   </body>
 </html>
 
