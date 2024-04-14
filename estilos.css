@@ -44,7 +44,8 @@ body{
         font-family: Sansita-Black;
     }   
     .iconoQuienesSomos{
-        display: flex;        
+        display: flex;  
+        position: relative;      
         flex-direction: column;
         align-items: center;
     }    
@@ -54,21 +55,22 @@ body{
         border-radius: 50%;
     }
     .perfilEvelyn{        
-        position: fixed;
+        position: absolute;
         display: flex;
         display: none;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;        
         top: 10rem; 
-        bottom: 3rem;       
-        background-color: skyblue;
-        width: 20em;        
+        bottom: 3rem; 
+        right: 0vw; 
+        height: 40vh; 
+        width: 60vw;          
+        background-color: skyblue;               
         text-align: justify;
         padding: 2rem 1rem 1rem 1rem;
         color: blueviolet;
         border-radius: 3rem 0rem;
-        box-shadow: 0px 0px 20px 1vw rgba(0, 0, 0, 0.3);
-        margin-right: 3rem;
+        box-shadow: 0px 0px 20px 1vw rgba(0, 0, 0, 0.3);       
         z-index: 3;/*para que el banner no se superponga al contenedor de perfil*/
     }
     .perfilEvelyn img{
@@ -169,6 +171,10 @@ body{
         margin-top:20.5vh; 
         margin-left: 44vw;              
     }
+    .video{
+        display: flex;
+        justify-content: center;
+    }
     .subtituloProductos{
         text-align: center;
         color: blueviolet;
@@ -186,7 +192,8 @@ body{
     grid-template-rows: repeat(3, 1fr); /* Tres filas */
     list-style-type: none;
     column-gap: 5%;
-    row-gap: 1%;   
+    row-gap: 1%; 
+       
 }
 .mainContainer img{
   
@@ -194,7 +201,8 @@ body{
     height: 80%;/* Ocupa el 60% de la altura de la celda */
     object-fit: cover; /* Ajusta la imagen para cubrir la celda */
 }
-.contSubtitulos {      
+.contSubtitulos {  
+     
    text-align: center; 
    font-size: 1rem; 
    color: blueviolet; 
@@ -204,6 +212,9 @@ body{
     text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al texto desbordado */
     white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
     
+}
+.contSubtitulos h3{
+    margin-top: 1rem;
 }
 .botonWatsapp{
     position: fixed;

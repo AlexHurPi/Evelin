@@ -6,6 +6,12 @@
     .listNav a{            
         font-size: 1.5rem;
     }
+    .perfilEvelyn{
+        width: 70vw;
+        height: 60vh;
+        right: 0vw;
+          
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -26,7 +32,11 @@
             gap: 1rem;           
         }    
         .perfilEvelyn{
-          margin-right: 18rem;          
+        position: absolute;
+          right: 0rem;
+          height: 50vh; 
+          width: 80vw; 
+          
         }        
          .subtitulo{       
             font-size: 0.8rem;
@@ -34,6 +44,14 @@
         .subtituloProductos{
             font-size: 1.5rem;
         }
+}
+@media screen and (max-width:960px){
+    .perfilEvelyn{        
+          right: 0rem;
+          height: 100vh; 
+          width: 80vw;          
+        }        
+
 }
 @media screen and (max-width:780px){    
     .abrir-menu{
@@ -104,8 +122,11 @@ color: white;
 font-size: 0.7rem;
 }
 .perfilEvelyn{
-    bottom: 5rem;   
-    left: 0rem;
+    position: absolute;
+    width: 80vw;
+    height: 50vh;
+    top: -27rem;
+    left: -1rem;
 }
 .contBanner{         
     width: 75vw; 
