@@ -120,6 +120,7 @@ body{
      border: none;     
      font-size: 2.5rem;
      background-color: white;
+     color: deeppink;     
     }     
     .subtitulo{       
         text-align: center;
@@ -131,6 +132,7 @@ body{
     height: 45vh;  
     margin: 0 auto;
     overflow: hidden;
+    border-radius: 1rem;
 }
     .banner{   
         position: relative;     
@@ -180,23 +182,28 @@ body{
 }
 .mainContainer ul{      
     display: grid;        
-    grid-template-columns: repeat(4, 1fr );
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: repeat(3, 1fr); /* Tres filas */
     list-style-type: none;
     column-gap: 5%;
     row-gap: 1%;   
 }
 .mainContainer img{
-   border-radius: 3vh;
+  
     width: 100%; /* Ocupa todo el ancho de la celda */
     height: 80%;/* Ocupa el 60% de la altura de la celda */
     object-fit: cover; /* Ajusta la imagen para cubrir la celda */
 }
-.mainContainer h5{      
+.contSubtitulos {      
    text-align: center; 
    font-size: 1rem; 
-   color: deeppink; 
-   background-color: blanchedalmond;
+   color: blueviolet; 
+   background-color: white;
+   max-width: 100%; /* Establece el ancho máximo del contenedor */
+    overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al texto desbordado */
+    white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
+    
 }
 .botonWatsapp{
     position: fixed;
