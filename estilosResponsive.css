@@ -1,37 +1,41 @@
 @media screen and (max-width:1440px){
-    .contBanner{         
-         width: 50rem; 
-         height: 25rem;         
-     }
+    
      .listNav{        
         gap: 2rem;           
     }    
+    .listNav a{            
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width:1024px){
     .botonWatsapp{        
-        height: 14vh;       
-    }      
+        height: 14vh;
+        z-index: 2;       
+    }   
+    header{
+        gap: 1rem;
+    }   
     header h2{
         font-size: 1.2rem;
         }
         .listNav a{
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
+        .listNav{        
+            gap: 1rem;           
+        }    
         .perfilEvelyn{
-          margin-right: 18rem;
+          margin-right: 18rem;          
+        }        
+         .subtitulo{       
+            font-size: 0.8rem;
+        }        
+        .subtituloProductos{
+            font-size: 1.5rem;
         }
-        .contBanner{    
-            display: flex;
-             width: 40rem; 
-             height: 20rem;
-             margin: 0 auto;     
-             overflow: hidden;
-         }
-        
 }
-@media screen and (max-width:780px){
-    
+@media screen and (max-width:780px){    
     .abrir-menu{
     display: block;       
 }
@@ -48,6 +52,7 @@
     padding: 1rem;   
     display: none;
     border-radius: 1rem;    
+    z-index: 3;
 }
 .listNav{
 flex-direction: column;
@@ -57,7 +62,7 @@ gap: 4rem;
 .listNav a{    
     color: white;
     font-family: Sansita-Regular;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 .listNav a:hover{   
     font-size: 1.2rem;    
@@ -102,22 +107,30 @@ font-size: 0.7rem;
     bottom: 5rem;   
     left: 0rem;
 }
-.banner{
-    font-size: 1rem;
+.contBanner{         
+    width: 75vw; 
+    height: 30vh;         
 }
-.banner img{        
-    margin: 1rem 0rem 1rem 0rem;
-    width: 70vw;
-   height: auto;
+.botonIzquierda{   
+    margin-top:15vh;
+    margin-left: -4vw;   
 }
+.botonDerecha{    
+    margin-top:15vh; 
+    margin-left: 74vw;              
+}
+.subtitulo{       
+    font-size: 0.7rem;
+}    
 .mainContainer{
-    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;    
 }
-.mainContainer ul{   
-    grid-template-columns: repeat(2, 1fr );
-    grid-template-rows: repeat(5, 1fr);    
-    column-gap: 3%;
-    row-gap: 1%;    
+.mainContainer ul{      
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 40vh 40vh 40vh 40vh 40vh;    
+    column-gap: 5%;
+    row-gap: 0%;    
 }
 .mainContainer h5{    
     font-size: 1rem;    

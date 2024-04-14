@@ -5,10 +5,17 @@ const cerrarMenu = document.querySelector("#cerrarMenu");
 
 abrirMenu.addEventListener("click", () =>{
     nav.classList.add("visible");
+   
 });
 
 cerrarMenu.addEventListener("click", () =>{
     nav.classList.remove("visible");
+});
+document.addEventListener('click', (event)=>{
+    
+    if (event.target !== abrirMenu && !abrirMenu.contains(event.target)){
+        nav.classList.remove("visible");  
+    }         
 });
 //-----------------poner visible la tarjeta de presentacion
 const perfilEvelyn =document.querySelector("#perfilEvelyn");
@@ -23,6 +30,7 @@ quienesSomos.addEventListener("click", ()=>{
         perfilEvelyn.classList.remove("mostrarPerfil");
     }    
 });
+
 //-------------ocultar la tarjeta de presentacion cuando da clic en cualquier parte de la pantalla excepto en el boton para evitar el error de no cerrar ni abrir
 document.addEventListener('click', (event)=>{
     if (event.target !== quienesSomos && !quienesSomos.contains(event.target)){
@@ -37,11 +45,12 @@ document.addEventListener('click', (event)=>{
  setInterval(function () {
     let porcentage = index * -100;
     banner.style.transform = "translateX("+ porcentage + "%)";
+   
     index++;
     if(index > (images.length-1)){
         index = 0;        
     }    
- }, 2000);
+ }, 3000);
 
 
 
