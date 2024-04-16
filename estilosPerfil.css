@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    display: grid;
+    grid-template-columns: 20vw 79vw;    
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+   
+}
+.perfilUsuario{ 
+    display: flex;
+    flex-direction: column;     
+    background: url(./imagenes/banner2.png) ; 
+    background-size: cover;    
+    color: blueviolet;    
+    align-items: center; 
+    box-shadow: 2px 0px 10px 10px rgba(0, 0, 0, .5);    
+}    
+
+.perfilUsuario img{     
+    border-radius: 50%;
+    width: 14vw;
+    height: auto;       
+}
+.perfilUsuario ul{   
+    margin: 2vh 0vh;
+    list-style-type: none;    
+     
+}
+.perfilUsuario li{
+    margin: 0.5rem 0;    
+}
+.perfilUsuario a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.articuloPresentacion{
+    text-align: justify;
+    color: blueviolet;
+    margin-right: 40vw;
+    margin-left: 2vw;
+}
+.contenidos h3{
+    color: blueviolet;
+    margin-left: 2vw;
+}
+.contenidoInstagram{    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    row-gap: 2em;    
+    column-gap: 2em;
+    margin: 0 2vw;
+    
+}
+.contenidoInstagram div{
+    height: 62vh;
+    overflow: hidden;
+}
+.separadorPerfilUsuario{
+  margin: 0 1vw;    
+}
+.slogan{
+    font-size: 1rem;
+    margin: 2vh 0;
+    }
+
+@media screen and (max-width:780px){    
+    .mainContainer{
+        display: grid;   
+        grid-template-columns: 100vw;  
+    }
+    .contImagenPerfil{        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: aliceblue;
+        width: 35vw;
+        height: 18vh;
+    }
+    .perfilUsuario img{ 
+        border-radius: 50%;
+        width: 30vw;
+        height: auto; 
+        background-color: aliceblue;         
+    }
+    .articuloPresentacion{       
+       margin: 0 4vw;      
+    }
+
+    .separador{
+        width: 98vw;        
+    }
+    .contenidoInstagram{       
+        grid-template-columns: repeat(1, 1fr); 
+             
+    }   
+    .contenidoInstagram div{
+        height: 80vh;        
+    }
+    
+}

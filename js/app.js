@@ -18,7 +18,7 @@ document.addEventListener('click', (event)=>{
     }         
 });
 //-----------------poner visible la tarjeta de presentacion
-const perfilEvelyn =document.querySelector("#perfilEvelyn");
+/*const perfilEvelyn =document.querySelector("#perfilEvelyn");
 const quienesSomos =document.querySelector("#quienesSomos");
 const iconoQuienesSomos =document.querySelector("#iconoQuienesSomos")
 
@@ -29,14 +29,14 @@ quienesSomos.addEventListener("click", ()=>{
     }else{
         perfilEvelyn.classList.remove("mostrarPerfil");
     }    
-});
+});*/
 
 //-------------ocultar la tarjeta de presentacion cuando da clic en cualquier parte de la pantalla excepto en el boton para evitar el error de no cerrar ni abrir
-document.addEventListener('click', (event)=>{
+/*document.addEventListener('click', (event)=>{
     if (event.target !== quienesSomos && !quienesSomos.contains(event.target)){
         perfilEvelyn.classList.remove("mostrarPerfil");  
     }         
-});
+});*/
 //------------------Slider o carrusel de imagenes----------------
  let banner = document.querySelector(".banner");
  let images = banner.querySelectorAll("img");
