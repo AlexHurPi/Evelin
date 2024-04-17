@@ -37,8 +37,8 @@ quienesSomos.addEventListener("click", ()=>{
         perfilEvelyn.classList.remove("mostrarPerfil");  
     }         
 });*/
-//------------------Slider o carrusel de imagenes----------------
- let banner = document.querySelector(".banner");
+//------------------Slider o carrusel de imagenes banner----------------
+let banner = document.querySelector(".banner");
  let images = banner.querySelectorAll("img");
  let index = 1;
 
@@ -53,7 +53,7 @@ quienesSomos.addEventListener("click", ()=>{
  }, 3000);
 
 
-
+    
 
 
 

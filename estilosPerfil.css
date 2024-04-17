@@ -26,7 +26,9 @@ body{
     width: 14vw;
     height: auto;       
 }
-.perfilUsuario ul{   
+.perfilUsuario ul{ 
+    display: flex;
+    flex-direction: column;  
     margin: 2vh 0vh;
     list-style-type: none;    
      
@@ -44,31 +46,50 @@ body{
 .articuloPresentacion{
     text-align: justify;
     color: blueviolet;
-    margin-right: 40vw;
-    margin-left: 2vw;
+    column-count: 2;
+    column-gap: 2vw;
+    column-rule-style: solid;
+    margin: 0 2vw;
 }
 .contenidos h3{
     color: blueviolet;
     margin-left: 2vw;
 }
-.contenidoInstagram{    
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    row-gap: 2em;    
-    column-gap: 2em;
+.actividad{
     margin: 0 2vw;
-    
+    display: grid;
+    grid-template-columns: 5em 17em 5em;    
+    justify-content: center; 
 }
-.contenidoInstagram div{
-    height: 62vh;
-    overflow: hidden;
+.botonSliderIzquierda{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: blueviolet;
+}
+.botonSliderDerecha{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: blueviolet;
+}
+.contenidoInstagram{    
+   overflow: hidden;    
+}
+.videos{
+    display: flex;     
+    height: 30em;
+    /*translate: -27em;*/
 }
 .separadorPerfilUsuario{
-  margin: 0 1vw;    
+  margin: 0 2vw;    
 }
 .slogan{
     font-size: 1rem;
     margin: 2vh 0;
+    }
+    footer{
+        margin-top: 3vw;
     }
 
 @media screen and (max-width:780px){    
@@ -93,24 +114,20 @@ body{
     }
     .perfilUsuario{ 
         box-shadow: none;
-    }
-    .perfilUsuario a{
-        font-size: 1rem;
-    }
-    
+    }       
     .articuloPresentacion{       
-       margin: 0 4vw;      
+       column-count: 1;
+        margin: 0 2vw;      
     }
-
     .separador{
         width: 98vw;        
     }
-    .contenidoInstagram{       
-        grid-template-columns: repeat(1, 1fr); 
-             
-    }   
-    .contenidoInstagram div{
-        height: 80vh;        
+    .actividad{
+        margin: 0; 
+        grid-template-columns: 1.5em 17em 1.5em;           
+    }    
+    .videos{
+        height: 30em;
+        /*translate: -27em;*/
     }
-    
 }
